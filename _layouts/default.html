@@ -19,13 +19,7 @@
   <div id="content">
     <div id="sheettop">
       <div id="nav">
-        <ul>
-          <li><a href="/">home</a></li> | 
-          <li><a href="/proposal.html">the proposal</a></li> | 
-          <!-- <li><a href="http://www.freewebsitetemplates.com">about my family</a></li> |  -->
-          <li><a href="/Photos/">our gallery</a></li>
-          <!-- <li><a href="http://www.freewebsitetemplates.com">contact</a></li> -->
-        </ul>
+          {% include navigation.html %}
       </div>
       {% if page.title %}
       <div class="title">
@@ -74,14 +68,8 @@
   </div>
   <div class="clear"></div>
   <div id="footer">
-    <ul>
-      <li><a href="/">home</a></li> | 
-      <li><a href="/proposal.html">the proposal</a></li> | 
-      <!-- <li><a href="http://www.freewebsitetemplates.com">about my family</a></li> |  -->
-      <li><a href="/Photos/">our gallery</a></li>
-      <!-- <li><a href="http://www.freewebsitetemplates.com">contact</a></li> -->
-    </ul>
-    <!-- <div id="copyright"><a href="http://www.freewebsitetemplates.com">Yourwebsite.com</a> all rights reserved.</div> -->
+      {% include navigation.html %}
+      <div id="copyright">&copy; 2011, <a href="http://dev.tritarget.org">TriTarget</a> all rights reserved.</div>
   </div>
     
 <div class="clear"></div>
