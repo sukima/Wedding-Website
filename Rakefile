@@ -1,37 +1,50 @@
 require "rake/clean"
 
 CLEAN.include "_site"
+CLOBBER.include "_includes/*.html_frag"
 
 def jekyll(opts = "", path = "")
   sh "rm -rf _site"
   sh path + "jekyll " + opts
 end
 
-desc "Build site using Jekyll"
-task :build do
-  jekyll
+namespace :build do
+  desc "Build markdown include files manually"
+  task :includes do
+    Dir.glob("_includes/*.md").each do |f|
+      sh "maruku --html-frag #{f}"
+    end
+  end
+
+  desc "Build site using Jekyll"
+  task :site => :"build:includes" do
+    jekyll
+  end
+
+  desc "Deploy to Dev and Live"
+  task :all => [:includes, :site]
 end
 
 desc "Serve on Localhost with port 4000"
-task :default do
+task :default => :"build:includes" do
   jekyll("--server --auto")
 end
 
-task :stable do
-  jekyll("--server --auto", "")
-end
+# task :stable => :"build:includes" do
+  # jekyll("--server --auto", "")
+# end
 
 desc "Deploy to Dev"
 task :deploy => :"deploy:live"
 
 namespace :deploy do
   desc "Deploy to Dev"
-  task :dev => :build do
+  task :dev => :"build:all" do
     rsync "$HOME/Sites/maddywillyoumarryme.com"
   end
   
   desc "Deploy to Live"
-  task :live => :build do
+  task :live => :"build:all" do
     rsync "ktohg@tritarget.org:maddywillyoumarryme.com"
   end
   
