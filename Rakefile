@@ -51,7 +51,7 @@ task :post do
   name = name.gsub(/[^a-zA-Z0-9_-]/, "").downcase
   time = Time.now.strftime("%Y-%m-%d")
   Dir.mkdir("_drafts") unless File::exists?("_drafts")
-  File.open("_drafts/#{time}-#{name}.markdown", "w+") do |file|
+  File.open("_drafts/#{time}-#{name}.md", "w+") do |file|
     file.puts <<-EOF
 --- 
 layout: post
@@ -60,5 +60,5 @@ author:
 ---
     EOF
   end
-  puts "Created '_drafts/#{time}-#{name}.markdown'"
+  puts "Created '_drafts/#{time}-#{name}.md'"
 end
