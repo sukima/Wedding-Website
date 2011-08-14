@@ -54,9 +54,9 @@ task :post do
   File.open("_drafts/#{time}-#{name}.markdown", "w+") do |file|
     file.puts <<-EOF
 --- 
-title: #{title}
 layout: post
-tags: [ ]
+title: #{title}
+author: 
 ---
     EOF
   end
