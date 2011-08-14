@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<h2 class="title_blue"> {{ page.title }} </h2>
+<h4 class="news_date">{{ page.date | date_to_string }}</h4>
+{{ content }}
+{% if page.tags and page.tags.size > 0 %}
+<p class="taglist">Tags: {{ page.tags | array_to_sentence_string }}</p>
+{% endif %}
+{% if site.enableDisqusComments %}
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    // The following are highly recommended additional parameters. Remove the slashes in front to use.
+    // var disqus_identifier = 'unique_dynamic_id_1234';
+    var disqus_url = '{{ page.url }}';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+{% endif %}
