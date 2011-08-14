@@ -1,5 +1,8 @@
 require "rake/clean"
 
+DEVELOPMENT_URI = "$HOME/Sites/maddywillyoumarryme.com"
+PRODUCTION_URI = "ktohg@tritarget.org:maddywillyoumarryme.com"
+
 CLEAN.include "_site"
 CLOBBER.include "_includes/*.html_frag"
 
@@ -40,12 +43,12 @@ task :deploy => :"deploy:live"
 namespace :deploy do
   desc "Deploy to Dev"
   task :dev => :"build:all" do
-    rsync "$HOME/Sites/maddywillyoumarryme.com"
+    rsync DEVELOPMENT_URI
   end
   
   desc "Deploy to Live"
   task :live => :"build:all" do
-    rsync "ktohg@tritarget.org:maddywillyoumarryme.com"
+    rsync PRODUCTION_URI
   end
   
   desc "Deploy to Dev and Live"
