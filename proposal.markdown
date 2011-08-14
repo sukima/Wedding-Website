@@ -1,6 +1,6 @@
 --- 
-title: "Maddy will you marry me?"
 layout: default
+title: "Maddy will you marry me?"
 --- 
 For almost three years now, you and I have grown nearly inseparable. Through
 ups and downs. Through happy and scared. In looking back I can not imagine
