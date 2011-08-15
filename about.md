@@ -27,7 +27,7 @@ Formal wear? Inconceivable! Seriously, we're geeks, people. Okay... so for our
 wedding we might look a bit more spiffy than usual, but we encourage all our
 guests to dress in whatever they feel is comfortable. Renn Garb FTW! This is a
 renaissance faire; so dressing in period costumes can be fun but it is
-OPTIONAL. Rantals are available if you so wish. Oh, and we're not responsible
+OPTIONAL. Rentals are available if you so wish. Oh, and we're not responsible
 for what happens if you decide to wear a red shirt.
 
 ## All Your Gifts Are Belong to Us
