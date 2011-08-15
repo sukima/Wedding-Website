@@ -11,4 +11,4 @@ maruku:
   png_dir:    images/latex
   png_url:    /images/latex
 enableDisqusComments: true
-debug: true
+debug: false
