@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Wedding Gallary</title>
+   	<link>.</link>
+        <generator>jAlbum 9</generator>
+   		<description></description>
+        <item>
+            <title>IMG_0442</title>
+            <link>slides/IMG_0442.html#</link>
+            <pubDate>Sun, 14 Aug 2011 13:20:12 -0400</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/IMG_0442.jpg" width="120" height="120"/>
+            <media:content type="image/jpeg" url="slides/IMG_0442.jpg" width="300" height="450"/>
+            <jalbum:exif originalDate="1/31/09 6:16 PM" cameraMake="Canon" cameraModel="Canon EOS DIGITAL REBEL XS"/>
+            <guid isPermaLink="false">slides/IMG_0442.jpg</guid>
+        </item>
+        <item>
+            <title>IMG_1900</title>
+            <link>slides/IMG_1900.html#</link>
+            <pubDate>Sun, 14 Aug 2011 13:20:12 -0400</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/IMG_1900.JPG" width="120" height="120"/>
+            <media:content type="image/jpeg" url="slides/IMG_1900.JPG" width="600" height="400"/>
+            <jalbum:exif originalDate="5/1/10 1:51 PM" cameraMake="Canon" cameraModel="Canon EOS DIGITAL REBEL XS"/>
+            <guid isPermaLink="false">slides/IMG_1900.JPG</guid>
+        </item>
+        <item>
+            <title>IMG_1974</title>
+            <link>slides/IMG_1974.html#</link>
+            <pubDate>Sun, 14 Aug 2011 13:20:12 -0400</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/IMG_1974.JPG" width="120" height="120"/>
+            <media:content type="image/jpeg" url="slides/IMG_1974.JPG" width="600" height="400"/>
+            <jalbum:exif originalDate="5/1/10 1:59 PM" cameraMake="Canon" cameraModel="Canon EOS DIGITAL REBEL XS"/>
+            <guid isPermaLink="false">slides/IMG_1974.JPG</guid>
+        </item>
+        <item>
+            <title>IMG_1879</title>
+            <link>slides/IMG_1879.html#</link>
+            <pubDate>Sun, 14 Aug 2011 13:20:12 -0400</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/IMG_1879.JPG" width="120" height="120"/>
+            <media:content type="image/jpeg" url="slides/IMG_1879.JPG" width="600" height="400"/>
+            <jalbum:exif originalDate="5/1/10 1:46 PM" cameraMake="Canon" cameraModel="Canon EOS DIGITAL REBEL XS"/>
+            <guid isPermaLink="false">slides/IMG_1879.JPG</guid>
+        </item>
+        <item>
+            <title>IMG_1980</title>
+            <link>slides/IMG_1980.html#</link>
+            <pubDate>Sun, 14 Aug 2011 13:20:12 -0400</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/IMG_1980.JPG" width="120" height="120"/>
+            <media:content type="image/jpeg" url="slides/IMG_1980.JPG" width="600" height="400"/>
+            <jalbum:exif originalDate="5/1/10 2:02 PM" cameraMake="Canon" cameraModel="Canon EOS DIGITAL REBEL XS"/>
+            <guid isPermaLink="false">slides/IMG_1980.JPG</guid>
+        </item>
+        <item>
+            <title>IMG_1883</title>
+            <link>slides/IMG_1883.html#</link>
+            <pubDate>Sun, 14 Aug 2011 13:20:12 -0400</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/IMG_1883.JPG" width="120" height="120"/>
+            <media:content type="image/jpeg" url="slides/IMG_1883.JPG" width="600" height="400"/>
+            <jalbum:exif originalDate="5/1/10 1:47 PM" cameraMake="Canon" cameraModel="Canon EOS DIGITAL REBEL XS"/>
+            <guid isPermaLink="false">slides/IMG_1883.JPG</guid>
+        </item>
+    </channel>
+</rss>

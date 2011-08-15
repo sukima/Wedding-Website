@@ -1,0 +1,57 @@
+body {
+	background-color:#bcb7ac;
+	background-repeat:repeat-x;
+	background-position:center top;
+	color:#333;
+}
+h1 {
+	color:#999;
+}
+h2, h3, h4, h5, h6 {
+	color:#666;
+}
+a {
+	color:#910;
+}
+a:visited {
+	color:#910;
+}
+a:hover {
+	color:#c30;
+}
+#hint {
+	color:#fff;
+	background-color:#000;
+}
+#indexwrapper .panel {
+	background-color:#fff;
+}
+#slidewrapper {
+	margin:40px auto 10px auto;
+}
+#slidewrapper .panel,
+#slidewrapper .panel iframe,
+.video {
+	background-color:#fff;
+}
+.footer {
+	color:#333;
+}
+.grid div:hover {
+	background-color:#dcd8cf;
+}
+.data .thumbs a:hover img {
+	border-bottom:8px solid #ccc;
+}
+.data .thumbs img.actual {
+	border-bottom:8px solid #999;
+}
+.controls #pageno {
+	color:#000;
+}
+#metadata {
+	color:#666;
+}
+#metadata b {
+	color:#999;
+}
