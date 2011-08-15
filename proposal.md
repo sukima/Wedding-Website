@@ -13,3 +13,5 @@ Will you marry me?
 **She said YES!**
 
 ![xkcd love equation - My normal approch is useless here.](http://imgs.xkcd.com/comics/useless.jpg)
+
+{% include disclaimer.html %}

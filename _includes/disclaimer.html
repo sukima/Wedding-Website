@@ -1,0 +1,19 @@
+<script type="text/javascript">
+    $(function() {
+      $("#disclaimer").dialog({
+        title: "Infromation",
+        modal: true,
+        width: 600,
+        height: 600,
+        buttons: [
+            {
+                text: "Dismis",
+                click: function() { $(this).dialog("close"); }
+            }
+        ]
+      });
+    });
+</script>
+<div id="disclaimer">
+    {% include proposalhow.html_frag %}
+</div>
