@@ -18,7 +18,7 @@ Don't Panic
 LIONS FAIRGROUNDS - 347 GILEAD STREET - HEBRON CT  
 Doors will be open from 11:00 AM to 6:00 PM  
 Ceremony starts at 1:00 PM  
-This is a dry event. No alcohol at the faire.  
+This is a dry event. *No alcohol* at the faire.  
 For more information on the faire see the website at
 [ctfaire.com](http://ctfaire.com)
 
@@ -29,7 +29,7 @@ Formal wear? Inconceivable! Seriously, we're geeks, people. Okay... so for our
 wedding we might look a bit more spiffy than usual, but we encourage all our
 guests to dress in whatever they feel is comfortable. Renn Garb FTW! This is a
 renaissance faire; so dressing in period costumes can be fun but it is
-OPTIONAL. Rentals are available if you so wish. Oh, and we're not responsible
+_OPTIONAL_. Rentals are available if you so wish. Oh, and we're not responsible
 for what happens if you decide to wear a red shirt.
 
 ## All Your Gifts Are Belong to Us
