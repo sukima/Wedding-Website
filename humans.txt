@@ -1,0 +1,19 @@
+/* TEAM */
+Author, Designer, Programmer: Devin Weaver
+Site: https://plus.google.com/104981501099138892251
+Twitter: sukima
+Location: New Haven, CT, USA
+
+Author: Maddy Pendleton
+Location: New London, CT, USA
+                            
+
+/* THANKS */
+Name: Mom and G.Ma for all their support
+
+
+/* SITE */
+Standards: HTML4, CSS2, Markdown
+Components: jQuery, jQuery-UI
+Software: Jekyll, Maruku, VIM
+Source: https://github.com/sukima/Wedding-Website
