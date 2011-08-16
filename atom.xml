@@ -1,0 +1,29 @@
+--- 
+layout: nil
+--- 
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>>Maddy and Devin's Wedding Oct 2, 2011</title>
+  <link href="{{ site.topURL }}" />
+  <link type="application/atom+xml" rel="self" href="{{ site.topURL }}/atom.xml" />
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.topURL }}</id>
+  <author>
+    <name>Devin Weaver</name>
+    <email>weaver.devin+wedding@gmail.com</email>
+  </author>
+  
+  {% for post in site.posts %}
+  <entry>
+    <id>{{ site.topURL }}{{ post.id }}</id>
+    <link rel="alternate" href="{{ site.topURL }}{{ post.url }}" type="text/html" />
+    <title>{{ post.title }}</title>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <author>{{ post.author }}</author>
+    <content type="html">{{ post.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+
+</feed>
+<!-- vim:set et ts=2 sw=2: -->

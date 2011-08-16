@@ -11,5 +11,6 @@ maruku:
   png_dir:    images/latex
   png_url:    /images/latex
 enableDisqusComments: true
+topURL: "http://maddywillyoumarryme.com"
 RSVPURL: "https://docs.google.com/spreadsheet/viewform?hl=en_US&formkey=dFlsWUx2clZpVlZLS09OUUFmYXdULVE6MQ#gid=0"
 debug: false
