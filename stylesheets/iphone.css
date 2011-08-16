@@ -1,0 +1,54 @@
+/*-----------------------------------*
+ *  IPHONE
+ *-----------------------------------*/
+body {
+    -webkit-text-size-adjust:120%;
+    font-family:Helvetica, Arial, Verdana, sans-serif;
+    padding:0px !important;
+}
+#header {
+    background-image:url(/images/headeriphone.jpg) !important;
+    width: 320px !important;
+    height:283px !important;
+}
+#content {
+    background-image:url(/images/sheetmiddleiphone.gif) !important;
+    margin: 0 !important;
+}
+#sheettop {
+    background-image:url(/images/sheetiphone.gif) !important;
+    width:320px !important;
+}
+.site-title {
+    width:200px !important;
+    margin: 10px 10px 0px 10px !important;
+}
+.text {
+    margin:10px !important;
+    width:300px !important;
+}
+#nav {
+    margin-left:34px !important;
+    width: 320px !important;
+}
+#nav ul {
+    width: 250px !important;
+}
+#photogallery {
+    margin-left:0px !important;
+    width:310px !important;
+}
+.photobox {
+    width:290px !important;
+    height:280px !important;
+}
+.blog { display: none !important; }
+#footer {
+    background-image:url(/images/footeriphone.gif) !important;
+    width:320px !important;
+    height:100px !important;
+}
+#footer ul, #copyright {
+    margin-left:5px !important;
+    width:310px !important;
+}

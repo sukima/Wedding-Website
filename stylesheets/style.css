@@ -1,5 +1,5 @@
 body {
-    background-image:url(images/background.gif);
+    background-image:url(/images/background.gif);
     color: #7a7e33;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 12px;
@@ -11,10 +11,10 @@ p {padding:10px;display:block;}
 #container {
     margin: 0 auto;
     text-align: left;
-    width: 780px;
+    width: 707px;
 }
 #header {
-    background-image:url(images/header.jpg);
+    background-image:url(/images/header.jpg);
     width: 707px;
     height:300px;
     display:block;
@@ -22,12 +22,12 @@ p {padding:10px;display:block;}
     padding:0px;
 }
 #content {
-    background-image:url(images/sheetmiddle.gif);
+    background-image:url(/images/sheetmiddle.gif);
     background-repeat:repeat-y;
     position:relative;
 }
 #sheettop {
-    background-image:url(images/sheet.gif);
+    background-image:url(/images/sheet.gif);
     background-repeat:no-repeat;
     width:707px;
 }
@@ -150,7 +150,7 @@ h1 {
     margin: 8px 5px 0px 5px;
 }
 #footer {
-    background-image:url(images/footer.gif);
+    background-image:url(/images/footer.gif);
     width:707px;
     height:86px;
     margin-left:0px;
