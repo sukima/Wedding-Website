@@ -6,6 +6,9 @@ body {
     font-family:Helvetica, Arial, Verdana, sans-serif;
     padding:0px !important;
 }
+#container {
+    width: 320px !important;
+}
 #header {
     background-image:url(/images/headeriphone.jpg) !important;
     width: 320px !important;
@@ -29,14 +32,14 @@ body {
 }
 #nav {
     margin-left:34px !important;
-    width: 320px !important;
+    width: 286px !important;
 }
 #nav ul {
     width: 250px !important;
 }
 #photogallery {
-    margin-left:0px !important;
     width:310px !important;
+    margin: 0 !important;
 }
 .photobox {
     width:290px !important;
