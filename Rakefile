@@ -20,13 +20,13 @@ namespace :build do
   end
 
   desc "Build site using Jekyll"
-  task :site => :"build:includes" do
+  task :site do
     jekyll
   end
-
-  desc "Deploy to Dev and Live"
-  task :all => [:includes, :site]
 end
+
+desc "Build both site and includes"
+task :build => [:"build:includes", :"build:site"]
 
 desc "Serve on Localhost with port 4000"
 task :default => :"build:includes" do
@@ -42,12 +42,12 @@ task :deploy => :"deploy:live"
 
 namespace :deploy do
   desc "Deploy to Dev"
-  task :dev => :"build:all" do
+  task :dev => :build do
     rsync DEVELOPMENT_URI
   end
   
   desc "Deploy to Live"
-  task :live => :"build:all" do
+  task :live => :build do
     rsync PRODUCTION_URI
   end
   
