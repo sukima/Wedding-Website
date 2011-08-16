@@ -1,6 +1,5 @@
 This page is the exact page that was on this site on _Febuary 13th, 2011_. The
-day I proposed to Maddy. The following is a little back story. Close this
-dialog to see the original page.
+day I proposed to Maddy. The following is a little back story.
 
 ## How I proposed to Maddy
 
@@ -14,7 +13,7 @@ took the opportunity to make this web site and then using the address
 `maddywillyoumarryme.com` I created a [QR Code][1] and using Photoshop created
 the following picture:
 
-![QR Code Billboard](/images/qrcode.jpg)
+![QR Code Billboard](/images/qrcode.jpg){: .bigimage }
 
 The essence of the email was that someone had a billboard with this giant code
 on it that everyone could capture with their smart phones. Once decoded it

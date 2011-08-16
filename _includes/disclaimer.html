@@ -1,18 +1,29 @@
 <script type="text/javascript">
+    <!--
     $(function() {
-      $("#disclaimer").dialog({
-        title: "Infromation",
-        modal: true,
-        width: 600,
-        height: 600,
-        buttons: [
-            {
-                text: "Dismis",
-                click: function() { $(this).dialog("close"); }
-            }
-        ]
-      });
+        /* Avoid using the dislog on an iPhone screen */
+        if (window.screen.width <= 480)
+        {
+            $("#dialoginfo").hide();
+            $("img.bigimage").width("280px");
+        }
+        else
+        {
+            $("#disclaimer").dialog({
+                title: "Infromation",
+                modal: true,
+                width: 600,
+                height: 600,
+                buttons: [
+                    {
+                        text: "Dismis",
+                        click: function() { $(this).dialog("close"); }
+                    }
+                ]
+              });
+        }
     });
+    -->
 </script>
 <div id="disclaimer">
     {% include proposalhow.html_frag %}
