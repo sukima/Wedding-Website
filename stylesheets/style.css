@@ -218,15 +218,21 @@ th {
     font-size: 1.2em;
 }
 
-.maruku_toc {
-    margin-left: 10px;
-}
-
 li {
     /* Push the list items back where they should be. */
     margin-left: 40px;
 }
 
+.maruku_toc li {
+    margin-left: 10px !important;
+}
+
 .navigation li {
     margin-left: 0px !important;
+}
+
+.post_summery {
+    margin: 10px 0px;
+    padding: 0px 5px 10px;
+    border-bottom: thin solid black;
 }
