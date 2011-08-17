@@ -13,12 +13,22 @@
 <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.15/themes/south-street/jquery-ui.css" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.15/jquery-ui.min.js"></script>
+<script type="text/javascript">
+    <!--
+    var site_debug = false;
+    // Set debug mode based on URL.
+    if (document.URL.indexOf("{{ site.topURL }}") == -1) { site_debug = true; }
 {% if site.enableDisqusComments %}
-<script language="javascript">
-    var disqus_developer = {% if site.debug %}1{% else %}0{% endif %};
+    var disqus_developer = site_debug;
     var disqus_shortname = 'maddywillyoumarryme'; // required: replace example with your forum shortname
-</script>
 {% endif %}
+    if (site_debug)
+    {
+        // Have a little warning that your in debug mode.
+        $(function() { $("#header").append("<center>DEVELOPMENT</center>"); });
+    }
+    // -->
+</script>
 {% include google_analytics.html %}
 </head>
 
@@ -90,14 +100,7 @@
 </div>
     
 {% if site.enableDisqusComments %}
-<script type="text/javascript">
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-</script>
+{% include disqus_comments.html %}
 {% endif %}
 </body>
 </html>
