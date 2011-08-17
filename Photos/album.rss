@@ -10,7 +10,7 @@
         <item>
             <title>IMG_0442</title>
             <link>slides/IMG_0442.html#</link>
-            <pubDate>Sun, 14 Aug 2011 13:20:12 -0400</pubDate>
+            <pubDate>Wed, 17 Aug 2011 18:15:10 -0400</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/IMG_0442.jpg" width="120" height="120"/>
@@ -21,7 +21,7 @@
         <item>
             <title>IMG_1900</title>
             <link>slides/IMG_1900.html#</link>
-            <pubDate>Sun, 14 Aug 2011 13:20:12 -0400</pubDate>
+            <pubDate>Wed, 17 Aug 2011 18:15:10 -0400</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/IMG_1900.JPG" width="120" height="120"/>
@@ -32,7 +32,7 @@
         <item>
             <title>IMG_1974</title>
             <link>slides/IMG_1974.html#</link>
-            <pubDate>Sun, 14 Aug 2011 13:20:12 -0400</pubDate>
+            <pubDate>Wed, 17 Aug 2011 18:15:10 -0400</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/IMG_1974.JPG" width="120" height="120"/>
@@ -43,7 +43,7 @@
         <item>
             <title>IMG_1879</title>
             <link>slides/IMG_1879.html#</link>
-            <pubDate>Sun, 14 Aug 2011 13:20:12 -0400</pubDate>
+            <pubDate>Wed, 17 Aug 2011 18:15:10 -0400</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/IMG_1879.JPG" width="120" height="120"/>
@@ -54,7 +54,7 @@
         <item>
             <title>IMG_1980</title>
             <link>slides/IMG_1980.html#</link>
-            <pubDate>Sun, 14 Aug 2011 13:20:12 -0400</pubDate>
+            <pubDate>Wed, 17 Aug 2011 18:15:10 -0400</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/IMG_1980.JPG" width="120" height="120"/>
@@ -65,13 +65,24 @@
         <item>
             <title>IMG_1883</title>
             <link>slides/IMG_1883.html#</link>
-            <pubDate>Sun, 14 Aug 2011 13:20:12 -0400</pubDate>
+            <pubDate>Wed, 17 Aug 2011 18:15:10 -0400</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/IMG_1883.JPG" width="120" height="120"/>
             <media:content type="image/jpeg" url="slides/IMG_1883.JPG" width="600" height="400"/>
             <jalbum:exif originalDate="5/1/10 1:47 PM" cameraMake="Canon" cameraModel="Canon EOS DIGITAL REBEL XS"/>
             <guid isPermaLink="false">slides/IMG_1883.JPG</guid>
+        </item>
+        <item>
+            <title>DSCN0325</title>
+            <link>slides/DSCN0325.html#</link>
+            <pubDate>Wed, 17 Aug 2011 18:15:10 -0400</pubDate>
+            <description>This is our new house. Closing date set for August 31st!</description>
+            <media:description type="html">This is our new house. Closing date set for August 31st!</media:description>
+            <media:thumbnail url="thumbs/DSCN0325.JPG" width="120" height="120"/>
+            <media:content type="image/jpeg" url="slides/DSCN0325.JPG" width="600" height="450"/>
+            <jalbum:exif originalDate="7/11/11 6:28 PM" cameraMake="NIKON" cameraModel="COOLPIX S6000"/>
+            <guid isPermaLink="false">slides/DSCN0325.JPG</guid>
         </item>
     </channel>
 </rss>
