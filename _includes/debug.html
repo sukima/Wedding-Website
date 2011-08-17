@@ -2,7 +2,7 @@
     <!--
     var site_debug = ("{{ site.debug }}" == "true" ? true : false);
     // Set debug mode based on URL.
-    if (document.URL.indexOf("{{ site.topURL }}") == -1) { site_debug = true; }
+    if (document.URL.indexOf("{{ site.url }}") == -1) { site_debug = true; }
     if (site_debug)
     {
         // Have a little warning that your in debug mode.

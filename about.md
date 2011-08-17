@@ -22,7 +22,7 @@ This is a dry event. *No alcohol* at the faire.
 For more information on the faire see the website at
 [ctfaire.com](http://ctfaire.com)
 
-<script src="http://www.gmodules.com/ig/ifr?url=http://hosting.gmodules.com/ig/gadgets/file/114281111391296844949/driving-directions.xml&amp;up_fromLocation=&amp;up_myLocations=347%20Gilead%20Street%2C%20Hebron%2C%20CT&amp;up_defaultDirectionsType=&amp;up_autoExpand=&amp;synd=open&amp;w=475&amp;h=55&amp;title=Directions+to+the+Faire&amp;brand=light&amp;lang=en&amp;country=US&amp;border=%23ffffff%7C3px%2C1px+solid+%23999999&amp;output=js"> </script>
+{% include googlemap.html %}
 
 ## Clothing
 Formal wear? Inconceivable! Seriously, we're geeks, people. Okay... so for our
@@ -50,7 +50,7 @@ Horse and carriage parking          | $3    |
 For those who want to go above and beyond: handmade, and second hand gifts are
 welcomed and appreciated. To make it easier for the more traditional gift
 givers among you, we gladly accept gift cards or you can view our registry at
-[amazon.com](http://amazon.com)
+[amazon.com]({{ site.links.registry }})
 
 ## We Can Haz Guest List Nao?
 If you're planning to celebrate with us, that would be awesomesauce! Let us

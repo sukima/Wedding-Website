@@ -15,8 +15,11 @@ author:
   name: Devin Weaver
   email: "weaver.devin+wedding@gmail.com"
 url: "http://maddywillyoumarryme.com"
-RSVPURL: "https://docs.google.com/spreadsheet/viewform?hl=en_US&formkey=dFlsWUx2clZpVlZLS09OUUFmYXdULVE6MQ#gid=0"
 debug: false
+
+links:
+  rsvp: "https://docs.google.com/spreadsheet/viewform?hl=en_US&formkey=dFlsWUx2clZpVlZLS09OUUFmYXdULVE6MQ#gid=0"
+  registry: "http://www.amazon.com/gp/registry/wedding/2FTK3EMV9HCS3"
 
 # features:
 google:
