@@ -7,6 +7,6 @@ layout: default
 {% if page.tags and page.tags.size > 0 %}
 <p class="taglist">Tags: {{ page.tags | array_to_sentence_string }}</p>
 {% endif %}
-{% if site.enableDisqusComments %}
+{% if site.disqus.enabled %}
 {% include disqus.html %}
 {% endif %}

@@ -14,14 +14,16 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.15/jquery-ui.min.js"></script>
 {% include debug.html %}
-{% include google_analytics.html %}
-{% if site.enableDisqusComments %}
+{% if site.disqus.enabled %}
 <script type="text/javascript">
     <!--
     var disqus_developer = site_debug;
     var disqus_shortname = 'maddywillyoumarryme'; // required: replace example with your forum shortname
     // -->
 </script>
+{% endif %}
+{% if site.google.analytics.enabled %}
+{% include google_analytics.html %}
 {% endif %}
 </head>
 
@@ -92,7 +94,7 @@
 <div class="clear"></div>
 </div>
     
-{% if site.enableDisqusComments %}
+{% if site.disqus.enabled %}
 {% include disqus_comments.html %}
 {% endif %}
 </body>

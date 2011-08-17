@@ -17,4 +17,14 @@ author:
 url: "http://maddywillyoumarryme.com"
 RSVPURL: "https://docs.google.com/spreadsheet/viewform?hl=en_US&formkey=dFlsWUx2clZpVlZLS09OUUFmYXdULVE6MQ#gid=0"
 debug: false
-enableDisqusComments: true
+
+# features:
+google:
+  analytics:
+    enabled: true
+    id: "UA-25176709-1"
+  search:
+    enabled: false
+
+disqus:
+  enabled: true
