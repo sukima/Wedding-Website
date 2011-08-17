@@ -221,3 +221,12 @@ th {
 .maruku_toc {
     margin-left: 10px;
 }
+
+li {
+    /* Push the list items back where they should be. */
+    margin-left: 40px;
+}
+
+.navigation li {
+    margin-left: 0px !important;
+}
