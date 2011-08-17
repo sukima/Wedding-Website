@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>Maddy and Devin's Wedding Oct 2, 2011{% if page.title %} - {{ page.title }}{% endif %}</title>
+    <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes" />
 <link rel="author" href="/humans.txt" />
@@ -13,23 +13,16 @@
 <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.15/themes/south-street/jquery-ui.css" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.15/jquery-ui.min.js"></script>
+{% include debug.html %}
+{% include google_analytics.html %}
+{% if site.enableDisqusComments %}
 <script type="text/javascript">
     <!--
-    var site_debug = false;
-    // Set debug mode based on URL.
-    if (document.URL.indexOf("{{ site.topURL }}") == -1) { site_debug = true; }
-{% if site.enableDisqusComments %}
     var disqus_developer = site_debug;
     var disqus_shortname = 'maddywillyoumarryme'; // required: replace example with your forum shortname
-{% endif %}
-    if (site_debug)
-    {
-        // Have a little warning that your in debug mode.
-        $(function() { $("#header").append("<center>DEVELOPMENT</center>"); });
-    }
     // -->
 </script>
-{% include google_analytics.html %}
+{% endif %}
 </head>
 
 <body>

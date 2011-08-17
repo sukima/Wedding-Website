@@ -10,7 +10,11 @@ maruku:
   use_divs:   true
   png_dir:    images/latex
   png_url:    /images/latex
-enableDisqusComments: true
-topURL: "http://maddywillyoumarryme.com"
+title: "Maddy and Devin's Wedding Oct 2, 2011"
+author:
+  name: Devin Weaver
+  email: "weaver.devin+wedding@gmail.com"
+url: "http://maddywillyoumarryme.com"
 RSVPURL: "https://docs.google.com/spreadsheet/viewform?hl=en_US&formkey=dFlsWUx2clZpVlZLS09OUUFmYXdULVE6MQ#gid=0"
 debug: false
+enableDisqusComments: true
