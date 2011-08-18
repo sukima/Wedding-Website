@@ -77,6 +77,13 @@ See this wikipedia [article][teh] on the topic.
 [interwebs]: www.urbandictionary.com/define.php?term=interwebs
 [teh]: http://en.wikipedia.org/wiki/Teh
 
+## Tim The Enchanter
+To quote the wikipedia [article][tim]:
+> Tim the Enchanter is a fictional character from Monty Python's 1975 movie
+> Monty Python and the Holy Grail played by John Cleese.
+
+[tim]: http://en.wikipedia.org/wiki/Tim_the_Enchanter
+
 ## Red shirt
 "Redshirt" is a term for a stock character in fiction who dies soon after being
 introduced. The term originated with fans of Star Trek (1966–1969), from the
