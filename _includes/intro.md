@@ -18,5 +18,5 @@ part in how. You can read all about it the [proposal page][1].
 
 Suffice it to say it was very geeky and appropriate.
 
-[RSVP]: {{site.RSVPURL}}
+[RSVP]: {{site.links.rsvp}}
 [1]: /proposal.html
