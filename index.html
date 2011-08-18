@@ -13,8 +13,7 @@ layout: default
     <p class="news_text blob">{{ blob }}</p>
     <p class="news_more">
     {% if site.disqus.enabled %}
-        <a class="comment" href="{{ post.url }}#disqus_thread">comment</a>
-        {% if blob.size >= 140 %} : {% endif %}
+        <a class="comment" href="{{ post.url }}#disqus_thread">comment</a> :
     {% endif %}
         <a class="more" href="{{ post.url }}">
         {% if blob.size >= 140 %}Read More &raquo;{% else %}View{% endif %}
