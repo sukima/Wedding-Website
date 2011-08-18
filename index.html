@@ -12,12 +12,12 @@ layout: default
     {% capture blob %}{{ post.content | strip_html | strip_newlines | truncate: 140 }}{% endcapture %}
     <p class="news_text blob">{{ blob }}</p>
     <p class="news_more">
-    {% if site.enableDisqusComments %}
+    {% if site.disqus.enabled %}
         <a class="comment" href="{{ post.url }}#disqus_thread">comment</a>
-        {% if blob.size >= 450 %} : {% endif %}
+        {% if blob.size >= 140 %} : {% endif %}
     {% endif %}
         <a class="more" href="{{ post.url }}">
-        {% if blob.size >= 450 %}Read More &raquo;{% else %}View{% endif %}
+        {% if blob.size >= 140 %}Read More &raquo;{% else %}View{% endif %}
         </a>
     </p>
     <!-- <p align="right">&raquo; <a href="#">back to top</a></p> -->
