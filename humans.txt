@@ -1,3 +1,6 @@
+--- 
+layout: nil
+--- 
 /* TEAM */
 Author, Designer, Programmer: Devin Weaver
 Site: https://plus.google.com/104981501099138892251
@@ -13,7 +16,8 @@ Name: Mom and G.Ma for all their support
 
 
 /* SITE */
+Last Updated: {{ site.time }}
 Standards: HTML4, CSS2, Markdown
-Components: jQuery, jQuery-UI
+Components: jQuery, jQuery-UI, Disqus
 Software: Jekyll, Maruku, VIM
 Source: https://github.com/sukima/Wedding-Website
