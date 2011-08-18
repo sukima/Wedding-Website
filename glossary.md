@@ -42,7 +42,7 @@ myself have reached the status of exalted reputation.
 
 [wow]: http://worldofwarcraft.com
 
-## I can haz guest list neo?
+## I can haz guest list nao?
 A very popular website called [I Can Haz Cheezeburger](icanhazcheezeburger.com) depicts
 pictures of cats and kittens with caption on them that depict what the cats are
 _thinking_ They use a language called [lolcat][lolcat] which is a strange
