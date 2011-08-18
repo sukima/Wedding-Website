@@ -32,6 +32,16 @@ things. This [internet meme][trogdor] is what started it all.
 [SBAD]: http://en.wikipedia.org/wiki/Strong_Bad
 [trogdor]: http://www.homestarrunner.com/sbemail58.html
 
+## Exalted Reputation
+In a video game called [World of Warcraft][wow] you play a character in a world
+of many towns and cities. One of the objective of this game is to complete
+quests for the towns and cities which gain you reputation. After months of
+playing a player might gain enough reputation to receive the status of
+_exalted_ for that town or city. So it is a cute joke to claim that Maddy and
+myself have reached the status of exalted reputation.
+
+[wow]: http://worldofwarcraft.com
+
 ## I can haz guest list neo?
 A very popular website called [I Can Haz Cheezeburger](icanhazcheezeburger.com) depicts
 pictures of cats and kittens with caption on them that depict what the cats are
