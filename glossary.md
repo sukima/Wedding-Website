@@ -25,12 +25,7 @@ the full wikipedia [article][wikibase].
 [wikibase]: http://en.wikipedia.org/wiki/All_your_base
 
 ## Burnination
-Trogdor is an imaginary dragon invented by [StrongBad][SBAD] who's theme song
-talked about how the dragon would fly around the town burning people and
-things. This [internet meme][trogdor] is what started it all.
-
-[SBAD]: http://en.wikipedia.org/wiki/Strong_Bad
-[trogdor]: http://www.homestarrunner.com/sbemail58.html
+See [Trogdor](#trogdor).
 
 ## Exalted Reputation
 In a video game called [World of Warcraft][wow] you play a character in a world
@@ -83,6 +78,15 @@ To quote the wikipedia [article][tim]:
 > Monty Python and the Holy Grail played by John Cleese.
 
 [tim]: http://en.wikipedia.org/wiki/Tim_the_Enchanter
+
+## Trogdor
+Trogdor is an imaginary dragon invented by [StrongBad][SBAD] who's theme song
+talked about how the dragon would fly around the town burning people
+("burnination") and things. This [internet meme][trogdor] is what started it
+all.
+
+[SBAD]: http://en.wikipedia.org/wiki/Strong_Bad
+[trogdor]: http://www.homestarrunner.com/sbemail58.html
 
 ## Red shirt
 "Redshirt" is a term for a stock character in fiction who dies soon after being
