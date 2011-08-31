@@ -236,3 +236,12 @@ li {
     padding: 0px 5px 10px;
     border-bottom: thin solid black;
 }
+
+.warning-box  {
+    width: 75%;
+    border: thin solid black;
+    background-color: #FFF;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0 auto;
+}

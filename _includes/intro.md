@@ -8,15 +8,20 @@ That sounds better. Oh right why are you here? Hmmm... Oh I know!
 For those who are visiting for the first time and have not sent in your RSVP
 you can do so now with our [RSVP online form][RSVP]. Try it; it's fun!
 
+This is a **non-traditional** wedding.  
+Please read [What you need to know][1] so you are prepared!
+{: .warning-box }
+
 ## Back story
 
 Along time ago in a galaxy far far... **CUT**  
 Sorry wrong story. Let's try again.
 
 Roughly about 3 years into our relationship I asked Maddy to marry me. The fun
-part in how. You can read all about it the [proposal page][1].
+part in how. You can read all about it the [proposal page][2].
 
 Suffice it to say it was very geeky and appropriate.
 
 [RSVP]: {{site.links.rsvp}}
-[1]: /proposal.html
+[1]: /needtoknow.html
+[2]: /proposal.html

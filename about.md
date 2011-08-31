@@ -9,6 +9,10 @@ Who are these people?
 Don't Panic
 {: .quip }
 
+For the non-joking, no frills, explination of this wedding please read
+[What you need to know](/needtoknow.html).
+{: .warning-box }
+
 # Table of Contents
 
 * TOC list
