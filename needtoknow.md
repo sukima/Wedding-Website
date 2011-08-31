@@ -7,6 +7,9 @@ and just general geeky silliness. Because of this we thought it would be
 helpful to offer a _no frills_ version of exactly what you need to know and be
 prepared for.
 
+**If this is too dry for you, you should read the [about page](/about.html)
+instead.**
+
 This is for anyone confused by our invitation or website. This is for anyone
 who is very traditional. Because our wedding is **NOT** a traditional one. For
 the less dry and full of win version of this information check out the
