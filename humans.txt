@@ -5,7 +5,7 @@ layout: nil
 Author, Designer, Programmer: Devin Weaver
 Site: https://plus.google.com/104981501099138892251
 Twitter: sukima
-Location: New Haven, CT, USA
+Location: Old Mystic, CT, USA
 
 Author: Maddy Pendleton
 Location: New London, CT, USA
@@ -13,6 +13,10 @@ Location: New London, CT, USA
 
 /* THANKS */
 Name: Mom and G.Ma for all their support
+
+
+/* LAYOUT */
+Initial Design: http://www.freewebsitetemplates.com
 
 
 /* SITE */
