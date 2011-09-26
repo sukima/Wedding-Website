@@ -191,7 +191,7 @@ h1 {
 
 blockquote {
     border-left: thick solid #7D940E;
-    margin: 0 0 0 20px;
+    margin: 0 0 10px 20px;
     padding: 0 5px;
     display: block;
 }
