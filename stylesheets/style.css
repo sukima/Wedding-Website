@@ -245,3 +245,10 @@ li {
     font-size: 1.2em;
     margin: 0 auto;
 }
+
+#countingclocks  {
+    width: 85%;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 20px auto 0;
+}

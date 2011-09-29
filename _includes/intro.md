@@ -1,4 +1,4 @@
-With only a week away make sure you know what you need to bring and were to go.
+Make sure you know what you need to bring and were to go.
 Read our [Be Prepared](/2011/09/25/be-prepared.html) post.
 {: .warning-box}
 
