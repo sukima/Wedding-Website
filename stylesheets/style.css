@@ -163,9 +163,12 @@ h1 {
     border-top: 1px dashed #b6be8d;
 
 }
+#footer {
+    font-size: 0.6em;
+}
 #footer ul, #copyright {
     margin-left:95px;
-    font-size:11px;
+    /* font-size:11px; */
     font-family:Verdana, Arial, Helvetica, sans-serif;
     font-weight: bolder;
     color: #747742;
@@ -175,14 +178,14 @@ h1 {
 
 }
 #footer a, #copyright a {
-    font-size:11px;
+    /* font-size:11px; */
     font-family:Verdana, Arial, Helvetica, sans-serif;
     font-weight: bolder;
     color: #747742;
-    text-decoration:none;
+    text-decoration:underline;
 }
 #footer a:hover, #copyright a:hover {
-    font-size:11px;
+    /* font-size:11px; */
     font-family:Verdana, Arial, Helvetica, sans-serif;
     font-weight: bolder;
     color: #747742;
