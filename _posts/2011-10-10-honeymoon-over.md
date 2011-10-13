@@ -14,8 +14,4 @@ impressive just how much effort is put into such an event.
 For anyone searching this site for idea on your own _off beet_ wedding I hope
 to write a few more posts on what and how we pulled it off.
 
-On a plus note the faire photographer stopped by and [took pictures][1] for the
-faire's website and promotions. So check out [those][1] till I get the official
-ones.
-
-[1]: 
+Pictures are on there way and will arive next week.
